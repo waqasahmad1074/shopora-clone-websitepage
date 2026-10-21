@@ -1,0 +1,403 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/style.css" rel="stylesheet">
+</head>
+<body>
+ <nav class="flex items-center gap-6 border-b bg-white px-6 py-4">
+ <div class="text-2xl font-bold text-blue-600">
+    Shopora
+  </div>
+  <div class="flex flex-1 items-center rounded-lg border border-gray-300 px-4 py-2">
+    <svg class="mr-2 h-5 w-5 text-gray-500" fill="none" stroke="currentColor"
+      viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" />
+    </svg>
+    <input
+      type="text"
+      placeholder="Search products..."
+      class="w-full outline-none"
+    />
+  </div>
+  <a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-700">
+    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14" />
+    </svg>
+    Download App
+  </a>
+  <a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-700">
+    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6" />
+    </svg>
+    Become Supplier
+  </a>
+  <a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-700">
+    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78Z" />
+    </svg>
+    Wishlist
+  </a>
+  <a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-700">
+    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M3 3h2l2.4 11.4a2 2 0 0 0 2 1.6h7.2a2 2 0 0 0 2-1.6L21 7H6M10 21a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm9 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" />
+    </svg>
+    Cart
+  </a>
+  <a href="#" class="flex items-center gap-2 text-sm font-medium text-gray-700">
+    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M20 21a8 8 0 0 0-16 0M16 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z" />
+    </svg>
+    Account
+  </a>
+
+</nav>
+<nav class="border-b bg-white">
+  <ul class="flex items-center justify-between px-6 py-4">
+
+    <li>
+      <a href="#" class="text-sm font-medium text-gray-700 hover:text-blue-600">
+        Home
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="text-sm font-medium text-gray-700 hover:text-blue-600">
+        All
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="text-sm font-medium text-gray-700 hover:text-blue-600">
+        MarketETVits
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="text-sm font-medium text-gray-700 hover:text-blue-600">
+        Women Western
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="text-sm font-medium text-gray-700 hover:text-blue-600">
+        Men
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="text-sm font-medium text-gray-700 hover:text-blue-600">
+        Kids
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="text-sm font-medium text-gray-700 hover:text-blue-600">
+        Home & Kitchen
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="text-sm font-medium text-gray-700 hover:text-blue-600">
+        Beauty & Health
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="text-sm font-medium text-gray-700 hover:text-blue-600">
+        Jewellery & Accessories
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="text-sm font-medium text-gray-700 hover:text-blue-600">
+        Bags & Footwear
+      </a>
+    </li>
+
+    <li>
+      <a href="#" class="text-sm font-medium text-gray-700 hover:text-blue-600">
+        Electronics
+      </a>
+    </li>
+
+  </ul>
+</nav>
+
+<div class="flex min-h-screen">
+
+  
+  <aside class="w-64 shrink-0 border-r bg-blue-500 px-4 py-6">
+
+    <nav>
+      <ul class="space-y-2">
+
+        
+        <li>
+          <a
+            href="#"
+            class="flex items-center rounded-lg bg-gray-500 px-4 py-3 font-medium text-white-600"
+          >
+            Dashboard
+          </a>
+        </li>
+
+       <li class="pt-5">
+          <p class="px-4 text-xs font-semibold uppercase tracking-wider text-gray-400">
+            Orders
+          </p>
+        </li>
+
+        <li>
+          <a href="#" class="block rounded-lg px-4 py-3 text-white hover:bg-gray-500">
+            Orders & Returns
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="block rounded-lg px-4 py-3 text-white hover:bg-gray-500">
+            My Shared Catalogs
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="block rounded-lg px-4 py-3 text-white hover:bg-gray-500">
+            My Wishlist
+          </a>
+        </li>
+
+        <li class="pt-5">
+          <p class="px-4 text-xs font-semibold uppercase tracking-wider text-gray-400">
+            Account
+          </p>
+        </li>
+
+        <li>
+          <a href="#" class="block rounded-lg px-4 py-3 text-white hover:bg-gray-500">
+            Profile
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="block rounded-lg px-4 py-3 text-white hover:bg-gray-500">
+            Manage Addresses
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="block rounded-lg px-4 py-3 text-white hover:bg-gray-500">
+            Store Details
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="block rounded-lg px-4 py-3 text-white hover:bg-gray-500">
+            Payments
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="block rounded-lg px-4 py-3 text-white hover:bg-gray-500">
+            Wallet
+          </a>
+        </li>
+
+        <li class="pt-5">
+          <p class="px-4 text-xs font-semibold uppercase tracking-wider text-gray-400">
+            Credits
+          </p>
+        </li>
+
+        <li>
+          <a href="#" class="block rounded-lg px-4 py-3 text-white hover:bg-gray-500">
+            Coupons
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="block rounded-lg px-4 py-3 text-white hover:bg-gray-500">
+            Rewards
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="block rounded-lg px-4 py-3 text-white hover:bg-gray-500">
+            Gifts
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+
+  </aside>
+
+  <main class="flex-1 bg-gray-50 p-6">
+
+  <div class="mb-6 flex items-center justify-between">
+
+      <h1 class="text-2xl font-bold text-gray-800">
+        My Wishlist
+      </h1>
+
+      <input
+        type="text"
+        placeholder="Search in wishlist..."
+        class="w-72 rounded-lg border border-gray-300 bg-white px-4 py-2 outline-none focus:border-blue-500"
+      />
+
+    </div>
+
+    <div class="grid grid-cols-5 gap-5">
+    <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+        <div class="h-40 bg-gray-100">
+          <img src="images/wishlist_image_1.jpg" alt=""class="h-full w-full object-cover">
+        </div>
+
+        <div class="p-4">
+          <h2 class="font-semibold text-gray-800">
+            Product Name
+          </h2>
+         <p class="mt-2 text-sm text-gray-500">
+            Some product details here
+          </p>
+
+          <button class="mt-4 w-full rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+        <div class="h-40 bg-gray-100">
+          <img src="images/wishlist_image_2.jpg" alt=""class="h-full w-full object-cover">
+        </div>
+        <div class="p-4">
+          <h2 class="font-semibold text-gray-800">Product Name</h2>
+          <p class="mt-2 text-sm text-gray-500">Some product details here</p>
+          <button class="mt-4 w-full rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+        <div class="h-40 bg-gray-100">
+          <img src="images/wishlist_image_3.jpg" alt=""class="h-full w-full object-cover">
+        </div>
+        <div class="p-4">
+          <h2 class="font-semibold text-gray-800">Product Name</h2>
+          <p class="mt-2 text-sm text-gray-500">Some product details here</p>
+          <button class="mt-4 w-full rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+        <div class="h-40 bg-gray-100">
+          <img src="images/wishlist_image_4.jpg" alt=""class="h-full w-full object-cover">
+        </div>
+        <div class="p-4">
+          <h2 class="font-semibold text-gray-800">Product Name</h2>
+          <p class="mt-2 text-sm text-gray-500">Some product details here</p>
+          <button class="mt-4 w-full rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+        <div class="h-40 bg-gray-100">
+          <img src="images/wishlist_image_5.jpg" alt=""class="h-full w-full object-cover">
+        </div>
+        <div class="p-4">
+          <h2 class="font-semibold text-gray-800">Product Name</h2>
+          <p class="mt-2 text-sm text-gray-500">Some product details here</p>
+          <button class="mt-4 w-full rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+        <div class="h-40 bg-gray-100">
+          <img src="images/wishlist_image_6.jpg" alt=""class="h-full w-full object-cover">
+        </div>
+        <div class="p-4">
+          <h2 class="font-semibold text-gray-800">Product Name</h2>
+          <p class="mt-2 text-sm text-gray-500">Some product details here</p>
+          <button class="mt-4 w-full rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+        <div class="h-40 bg-gray-100">
+          <img src="images/wishlist_image_7.jpg" alt=""class="h-full w-full object-cover">
+        </div>
+       <div class="p-4">
+          <h2 class="font-semibold text-gray-800">Product Name</h2>
+          <p class="mt-2 text-sm text-gray-500">Some product details here</p>
+          <button class="mt-4 w-full rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+        <div class="h-40 bg-gray-100">
+          <img src="images/wishlist_image_8.jpg" alt=""class="h-full w-full object-cover">
+        </div>
+        <div class="p-4">
+          <h2 class="font-semibold text-gray-800">Product Name</h2>
+          <p class="mt-2 text-sm text-gray-500">Some product details here</p>
+          <button class="mt-4 w-full rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+        <div class="h-40 bg-gray-100">
+          <img src="images/wishlist_image_9.jpg" alt=""class="h-full w-full object-cover">
+        </div>
+        <div class="p-4">
+          <h2 class="font-semibold text-gray-800">Product Name</h2>
+          <p class="mt-2 text-sm text-gray-500">Some product details here</p>
+          <button class="mt-4 w-full rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+      <div class="overflow-hidden rounded-lg border bg-white shadow-sm">
+        <div class="h-40 bg-gray-100">
+          <img src="images/wishlist_image_10.jpg" alt="" class="h-full w-full object-cover">
+           
+        </div>
+        <div class="p-4">
+          <h2 class="font-semibold text-gray-800">Product Name</h2>
+          <p class="mt-2 text-sm text-gray-500">Some product details here</p>
+          <button class="mt-4 w-full rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+</div>
+
+
+</body>
+</html>
